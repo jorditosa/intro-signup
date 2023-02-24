@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-size: 16px;
+    background: url(../public/images/bg-intro-mobile.png), hsl(0, 100%, 74%);
+}
+
+@media (min-width: 375px) {
+    body {
+        background: url(../public/images/bg-intro-desktop.png), hsl(0, 100%, 74%);
+    }
+}
