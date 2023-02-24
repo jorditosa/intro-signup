@@ -36,7 +36,7 @@ function Form() {
     }
 
   return (
-    <section className="my-8 flex flex-col justify-center items-center">
+    <div className="my-8 flex flex-col justify-center items-center">
         <div className="w-full py-6 px-12 bg-info rounded-lg shadow-[0_4px_1px_1px_rgba(0,0,0,0.2)]">
             <p className="text-white text-center font-semibold">
             Try it free 7 days <span className="text-white/75 font-normal">then $20/mo. thereafter</span> 
@@ -84,7 +84,7 @@ function Form() {
 
 
         </form>
-    </section>
+    </div>
   )
 }
 
