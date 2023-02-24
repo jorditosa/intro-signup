@@ -43,7 +43,7 @@ function Form() {
             </p>
         </div>
         <form 
-        className="bg-white rounded-lg p-5 my-6 shadow-[0_4px_1px_1px_rgba(0,0,0,0.2)]"
+        className="bg-white rounded-lg p-5 md:p-10 my-6 shadow-[0_4px_1px_1px_rgba(0,0,0,0.2)]"
         onSubmit={handleSubmit}
         >
 
